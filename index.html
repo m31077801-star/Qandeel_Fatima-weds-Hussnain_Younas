@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qandeel Fatima weds Hussnain Younas — Wedding Invitation</title>
+
+  <!-- WhatsApp Share Preview Tags -->
+  <meta property="og:title" content="Wedding Invitation: Qandeel Fatima weds Hussnain Younas" />
+  <meta property="og:description" content="Together with our families, we joyfully invite you to celebrate Barat &amp; Walima." />
+  <meta property="og:type" content="website" />
+
+  <!-- Classic Monogram + Editorial + Clean Sans + Arabic Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Pinyon+Script&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --midnight-navy: #0b162c;
+      --navy-blue: #152647;
+      --navy-glass: rgba(18, 33, 62, 0.78);
+      --dusty-rose: #c98a93;
+      --blush-pink: #f2c9cf;
+      --rose-gold: #dfb0a8;
+      --ivory: #fbf7f2;
+      --ivory-soft: #dfd5cf;
+      --border-rose: rgba(242, 201, 207, 0.28);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #070e1c 0%, #040811 100%);
+      color: var(--ivory);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    /* Ambient Floating Petals */
+    .ambient-layer {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 2;
+    }
+
+    .petal {
+      position: absolute;
+      top: -24px;
+      border-radius: 100% 0 100% 0;
+      background: linear-gradient(135deg, rgba(242, 201, 207, 0.45), rgba(201, 138, 147, 0.12));
+      animation: fall linear infinite;
+      filter: blur(0.3px);
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(-10vh) translateX(0) rotate(0deg);
+        opacity: 0;
+      }
+      15% {
+        opacity: 0.75;
+      }
+      85% {
+        opacity: 0.65;
+      }
+      100% {
+        transform: translateY(108vh) translateX(36px) rotate(320deg);
+        opacity: 0;
+      }
+    }
+
+    /* Mobile-first App Frame */
+    .invite-shell {
+      width: 100%;
+      max-width: 450px;
+      min-height: 100vh;
+      position: relative;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(201, 138, 147, 0.16), transparent 45%),
+        radial-gradient(circle at 85% 25%, rgba(242, 201, 207, 0.08), transparent 40%),
+        linear-gradient(180deg, var(--navy-blue) 0%, var(--midnight-navy) 52%, #070e1d 100%);
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.85);
+      border-left: 1px solid var(--border-rose);
+      border-right: 1px solid var(--border-rose);
+    }
+
+    .invite-shell::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 450px;
+      height: 100%;
+      background-image:
+        radial-gradient(rgba(242, 201, 207, 0.08) 1px, transparent 1px),
+        radial-gradient(rgba(201, 138, 147, 0.06) 1px, transparent 1px);
+      background-size: 28px 28px;
+      background-position: 0 0, 14px 14px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ================= COVER GATE ================= */
+    #cover-gate {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 450px;
+      height: 100vh;
+      background:
+        radial-gradient(circle at 50% 20%, rgba(201, 138, 147, 0.2), transparent 55%),
+        linear-gradient(170deg, #16284b 0%, var(--midnight-navy) 65%, #070e1c 100%);
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+      transition: opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1), transform 0.85s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.85s;
+    }
+
+    #cover-gate.opened {
+      opacity: 0;
+      transform: translateX(-50%) translateY(-28px) scale(1.03);
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .cover-card {
+      width: 100%;
+      border: 1px solid rgba(242, 201, 207, 0.38);
+      border-radius: 210px 210px 22px 22px;
+      padding: 40px 22px 32px;
+      background: rgba(11, 22, 44, 0.72);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55), inset 0 0 0 1px rgba(201, 138, 147, 0.16);
+    }
+
+    .bismillah {
+      font-family: 'Amiri', serif;
+      font-size: 23px;
+      color: var(--blush-pink);
+      margin-bottom: 12px;
+    }
+
+    /* Classic Initials Monogram */
+    .classic-monogram {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 10px 22px;
+      border-radius: 999px;
+      border: 1px solid rgba(242, 201, 207, 0.45);
+      background: rgba(242, 201, 207, 0.07);
+      margin: 4px auto 14px;
+    }
+
+    .classic-initial {
+      font-family: 'Pinyon Script', cursive;
+      font-size: 38px;
+      line-height: 1;
+      color: var(--blush-pink);
+      text-shadow: 0 2px 12px rgba(242, 201, 207, 0.25);
+    }
+
+    .classic-amp {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 20px;
+      color: var(--dusty-rose);
+      padding: 0 2px;
+    }
+
+    .cover-tag {
+      font-size: 10px;
+      letter-spacing: 3.2px;
+      text-transform: uppercase;
+      color: var(--blush-pink);
+      margin-bottom: 8px;
+    }
+
+    .cover-couple {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 31px;
+      font-weight: 600;
+      line-height: 1.18;
+      color: var(--ivory);
+    }
+
+    .cover-couple .script-weds {
+      display: block;
+      font-family: 'Pinyon Script', cursive;
+      font-size: 28px;
+      color: var(--blush-pink);
+      margin: 2px 0;
+    }
+
+    .guest-box {
+      margin: 18px 0 22px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: rgba(251, 247, 242, 0.04);
+      border: 1px solid rgba(242, 201, 207, 0.22);
+    }
+
+    .guest-label {
+      display: block;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--dusty-rose);
+      margin-bottom: 6px;
+    }
+
+    .guest-field {
+      width: 100%;
+      background: rgba(8, 16, 33, 0.78);
+      border: 1px solid rgba(242, 201, 207, 0.35);
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: var(--ivory);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      outline: none;
+      transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .guest-field::placeholder {
+      color: rgba(242, 201, 207, 0.45);
+      font-size: 16px;
+      font-style: italic;
+    }
+
+    .guest-field:focus {
+      border-color: var(--blush-pink);
+      box-shadow: 0 0 0 3px rgba(242, 201, 207, 0.14);
+    }
+
+    .pill-btn {
+      width: 100%;
+      border: none;
+      border-radius: 999px;
+      padding: 14px 24px;
+      background: linear-gradient(135deg, var(--blush-pink) 0%, var(--dusty-rose) 100%);
+      color: var(--midnight-navy);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow: 0 10px 26px rgba(201, 138, 147, 0.35);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .pill-btn:active {
+      transform: scale(0.97);
+    }
+
+    /* ================= MAIN CONTENT ================= */
+    .main-content {
+      position: relative;
+      z-index: 3;
+      padding: 28px 18px 56px;
+    }
+
+    /* Quick Interactive Event Switcher */
+    .quick-nav {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 18px;
+      position: sticky;
+      top: 12px;
+      z-index: 20;
+      background: rgba(11, 22, 44, 0.78);
+      backdrop-filter: blur(10px);
+      padding: 6px;
+      border-radius: 999px;
+      border: 1px solid rgba(242, 201, 207, 0.24);
+    }
+
+    .nav-chip {
+      flex: 1;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--ivory-soft);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      padding: 8px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .nav-chip.active {
+      background: linear-gradient(135deg, rgba(242, 201, 207, 0.24), rgba(201, 138, 147, 0.18));
+      border-color: rgba(242, 201, 207, 0.45);
+      color: var(--blush-pink);
+      font-weight: 600;
+    }
+
+    .card {
+      background: var(--navy-glass);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-rose);
+      border-radius: 22px;
+      padding: 28px 20px;
+      margin-bottom: 18px;
+      text-align: center;
+      box-shadow: 0 14px 36px rgba(0, 0, 0, 0.42);
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.75s ease, transform 0.75s ease, border-color 0.35s ease;
+    }
+
+    .card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .card.spotlight {
+      border-color: var(--blush-pink);
+      box-shadow: 0 0 0 1px rgba(242, 201, 207, 0.28), 0 16px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .eyebrow {
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--dusty-rose);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .couple-hero {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 1.15;
+      color: var(--ivory);
+    }
+
+    .lead-cap {
+      font-family: 'Pinyon Script', cursive;
+      font-size: 46px;
+      color: var(--blush-pink);
+      line-height: 0.9;
+      margin-right: 2px;
+    }
+
+    .weds-script {
+      display: block;
+      font-family: 'Pinyon Script', cursive;
+      font-size: 30px;
+      color: var(--blush-pink);
+      margin: 3px 0;
+    }
+
+    .rose-rule {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 14px auto;
+      color: var(--blush-pink);
+      font-size: 12px;
+    }
+
+    .rose-rule::before,
+    .rose-rule::after {
+      content: "";
+      height: 1px;
+      width: 52px;
+      background: linear-gradient(90deg, transparent, rgba(242, 201, 207, 0.6), transparent);
+    }
+
+    .letter {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 19px;
+      line-height: 1.62;
+      color: var(--ivory);
+    }
+
+    .guest-highlight {
+      color: var(--blush-pink);
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    .parent-card {
+      padding: 12px 10px;
+      border-radius: 14px;
+      background: rgba(251, 247, 242, 0.03);
+      border: 1px solid rgba(242, 201, 207, 0.14);
+    }
+
+    .person-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 25px;
+      font-weight: 600;
+      color: var(--ivory);
+    }
+
+    .person-name .cap {
+      font-family: 'Pinyon Script', cursive;
+      font-size: 33px;
+      color: var(--blush-pink);
+    }
+
+    .lineage {
+      font-size: 13px;
+      color: var(--ivory-soft);
+      margin-top: 4px;
+    }
+
+    .lineage strong {
+      color: var(--blush-pink);
+      font-weight: 500;
+    }
+
+    /* Events */
+    .section-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 30px;
+      font-weight: 600;
+      color: var(--ivory);
+    }
+
+    .event-box {
+      margin-top: 16px;
+      padding: 20px 16px;
+      border-radius: 18px;
+      background: linear-gradient(160deg, rgba(251, 247, 242, 0.05), rgba(11, 22, 44, 0.72));
+      border: 1px solid rgba(242, 201, 207, 0.25);
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .event-box.active-event {
+      border-color: var(--blush-pink);
+      transform: translateY(-2px);
+    }
+
+    .event-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 29px;
+      font-weight: 600;
+      color: var(--blush-pink);
+    }
+
+    .event-name .cap {
+      font-family: 'Pinyon Script', cursive;
+      font-size: 38px;
+      color: var(--ivory);
+    }
+
+    .blank-slot {
+      min-height: 22px;
+      margin: 7px 0;
+      font-size: 13px;
+      color: var(--ivory-soft);
+      border-bottom: 1px dashed rgba(242, 201, 207, 0.22);
+      padding-bottom: 6px;
+    }
+
+    .blank-slot:last-of-type {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .action-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .btn-rose {
+      background: var(--blush-pink);
+      color: var(--midnight-navy);
+      border: 1px solid var(--blush-pink);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--ivory);
+      border: 1px solid rgba(242, 201, 207, 0.42);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    /* Countdown */
+    .timer-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .timer-cell {
+      padding: 12px 4px;
+      border-radius: 12px;
+      background: rgba(8, 16, 33, 0.65);
+      border: 1px solid rgba(242, 201, 207, 0.24);
+    }
+
+    .timer-val {
+      display: block;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--blush-pink);
+    }
+
+    .timer-lbl {
+      font-size: 9px;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      color: var(--ivory-soft);
+    }
+
+    /* Attendance & Redirect Section */
+    .field-group {
+      text-align: left;
+      margin-top: 14px;
+    }
+
+    .field-label {
+      display: block;
+      font-size: 10.5px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: var(--blush-pink);
+      margin-bottom: 6px;
+    }
+
+    .input-control {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(242, 201, 207, 0.32);
+      background: rgba(8, 16, 33, 0.78);
+      color: var(--ivory);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 13.5px;
+      outline: none;
+      transition: border-color 0.25s ease;
+    }
+
+    .input-control:focus {
+      border-color: var(--blush-pink);
+    }
+
+    .event-choice-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 6px;
+    }
+
+    .event-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 14px;
+      border-radius: 14px;
+      background: rgba(8, 16, 33, 0.72);
+      border: 1px solid rgba(242, 201, 207, 0.28);
+      cursor: pointer;
+      transition: all 0.22s ease;
+      user-select: none;
+    }
+
+    .event-option.selected {
+      background: rgba(242, 201, 207, 0.16);
+      border-color: var(--blush-pink);
+      box-shadow: 0 0 0 1px rgba(242, 201, 207, 0.22);
+    }
+
+    .event-option input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--blush-pink);
+      cursor: pointer;
+    }
+
+    .event-option-label {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--ivory);
+    }
+
+    .event-option.selected .event-option-label {
+      color: var(--blush-pink);
+    }
+
+    .dua-box {
+      font-family: 'Amiri', serif;
+      font-size: 22px;
+      line-height: 1.85;
+      color: var(--blush-pink);
+      margin: 10px 0;
+    }
+
+    .footer-sign {
+      text-align: center;
+      font-size: 10.5px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(242, 201, 207, 0.65);
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Blush Petals -->
+  <div class="ambient-layer" id="ambient-layer" aria-hidden="true"></div>
+
+  <!-- ================= COVER GATE ================= -->
+  <div id="cover-gate">
+    <div class="cover-card">
+      <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</div>
+
+      <!-- Classic Monogram -->
+      <div class="classic-monogram" aria-label="Q and H Monogram">
+        <span class="classic-initial">Q</span>
+        <span class="classic-amp">&amp;</span>
+        <span class="classic-initial">H</span>
+      </div>
+
+      <div class="cover-tag">Wedding Invitation</div>
+      <div class="cover-couple">
+        Qandeel Fatima
+        <span class="script-weds">weds</span>
+        Hussnain Younas
+      </div>
+
+      <!-- Guest Can Type Their Own Name -->
+      <div class="guest-box">
+        <label for="cover-guest-input" class="guest-label">Your Name</label>
+        <input
+          type="text"
+          id="cover-guest-input"
+          class="guest-field"
+          placeholder="Write your name here..."
+          autocomplete="name"
+        />
+      </div>
+
+      <button class="pill-btn" onclick="openCard()">Open Invitation</button>
+    </div>
+  </div>
+
+  <!-- ================= MAIN INVITATION ================= -->
+  <div class="invite-shell">
+    <div class="main-content">
+
+      <!-- Interactive Quick Jump Bar -->
+      <div class="quick-nav">
+        <button class="nav-chip active" onclick="focusEvent('barat', this)">Barat</button>
+        <button class="nav-chip" onclick="focusEvent('walima', this)">Walima</button>
+        <button class="nav-chip" onclick="jumpTo('#rsvp-card', this)">Confirm</button>
+      </div>
+
+      <!-- 1. COUPLE & LETTER -->
+      <div class="card">
+        <div class="eyebrow">Together With Their Families</div>
+        <div class="couple-hero">
+          <span class="lead-cap">Q</span>andeel Fatima
+          <span class="weds-script">weds</span>
+          <span class="lead-cap">H</span>ussnain Younas
+        </div>
+        <div class="rose-rule">❀</div>
+        <p class="letter">
+          Dearest <span id="letter-guest-display" class="guest-highlight">Guest</span>,<br>
+          With heartfelt joy and gratitude to Allah (SWT), we warmly invite you to grace our celebrations with your presence and precious prayers.
+        </p>
+      </div>
+
+      <!-- 2. FAMILIES -->
+      <div class="card">
+        <div class="eyebrow">With The Blessings Of</div>
+
+        <div class="parent-card">
+          <div class="person-name"><span class="cap">Q</span>andeel Fatima</div>
+          <div class="lineage">Daughter of <strong>Naeem Ahmed Malik</strong></div>
+        </div>
+
+        <div class="rose-rule">❖</div>
+
+        <div class="parent-card">
+          <div class="person-name"><span class="cap">H</span>ussnain Younas</div>
+          <div class="lineage">Son of <strong>Zulifqar</strong></div>
+        </div>
+      </div>
+
+      <!-- 3. EVENTS (BARAT & WALIMA — DATES LEFT BLANK) -->
+      <div class="card" id="events-card">
+        <div class="eyebrow">Celebrations</div>
+        <h2 class="section-heading">Wedding Events</h2>
+
+        <!-- BARAT -->
+        <div class="event-box active-event" id="event-barat">
+          <div class="event-name"><span class="cap">B</span>arat</div>
+          <div class="rose-rule">❀</div>
+          <div class="blank-slot" id="barat-date"></div>
+          <div class="blank-slot" id="barat-time"></div>
+          <div class="blank-slot" id="barat-venue"></div>
+          <div class="action-grid">
+            <a id="barat-map-link" href="#" target="_blank" class="btn-rose">Location</a>
+            <button onclick="saveCalendar('barat')" class="btn-ghost">Add Calendar</button>
+          </div>
+        </div>
+
+        <!-- WALIMA -->
+        <div class="event-box" id="event-walima">
+          <div class="event-name"><span class="cap">W</span>alima</div>
+          <div class="rose-rule">❀</div>
+          <div class="blank-slot" id="walima-date"></div>
+          <div class="blank-slot" id="walima-time"></div>
+          <div class="blank-slot" id="walima-venue"></div>
+          <div class="action-grid">
+            <a id="walima-map-link" href="#" target="_blank" class="btn-rose">Location</a>
+            <button onclick="saveCalendar('walima')" class="btn-ghost">Add Calendar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. COUNTDOWN -->
+      <div class="card">
+        <div class="eyebrow">Save The Moment</div>
+        <h2 class="section-heading">Countdown</h2>
+        <div class="timer-grid">
+          <div class="timer-cell"><span class="timer-val" id="cd-days">--</span><span class="timer-lbl">Days</span></div>
+          <div class="timer-cell"><span class="timer-val" id="cd-hours">--</span><span class="timer-lbl">Hours</span></div>
+          <div class="timer-cell"><span class="timer-val" id="cd-mins">--</span><span class="timer-lbl">Mins</span></div>
+          <div class="timer-cell"><span class="timer-val" id="cd-secs">--</span><span class="timer-lbl">Secs</span></div>
+        </div>
+      </div>
+
+      <!-- 5. GUEST NAME + EVENT SELECTION + WHATSAPP REDIRECT -->
+      <div class="card" id="rsvp-card">
+        <div class="eyebrow">Let Us Know</div>
+        <h2 class="section-heading">Attend Events</h2>
+
+        <div class="field-group">
+          <label for="rsvp-guest-name" class="field-label">Your Name</label>
+          <input
+            type="text"
+            id="rsvp-guest-name"
+            class="input-control"
+            placeholder="Write your name"
+          />
+        </div>
+
+        <div class="field-group">
+          <span class="field-label">Which Event(s) Will You Attend?</span>
+          <div class="event-choice-list">
+            <label class="event-option" id="option-barat" onclick="toggleOptionStyle('barat')">
+              <input type="checkbox" id="check-barat" value="Barat" />
+              <span class="event-option-label">Barat</span>
+            </label>
+
+            <label class="event-option" id="option-walima" onclick="toggleOptionStyle('walima')">
+              <input type="checkbox" id="check-walima" value="Walima" />
+              <span class="event-option-label">Walima</span>
+            </label>
+          </div>
+        </div>
+
+        <button onclick="redirectToWhatsApp()" class="pill-btn" style="margin-top: 20px;">
+          Continue to WhatsApp
+        </button>
+      </div>
+
+      <!-- 6. CLOSING DUA -->
+      <div class="card">
+        <div class="eyebrow">Prayers &amp; Blessings</div>
+        <div class="dua-box">
+          بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
+        </div>
+        <p style="font-family: 'Cormorant Garamond', serif; font-size: 17px; color: var(--ivory-soft); font-style: italic;">
+          "May Allah bless you both, shower His blessings upon you, and unite you together in goodness."
+        </p>
+      </div>
+
+      <div class="footer-sign">Qandeel Fatima &amp; Hussnain Younas</div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       EASY EDIT SETTINGS (DATES LEFT BLANK AS REQUESTED)
+       ===================================================================== -->
+  <script>
+    const WEDDING_CONFIG = {
+      whatsappNumber: "923361882652",
+
+      // Format when ready: "YYYY-MM-DDTHH:MM:SS"
+      countdownTarget: "",
+
+      barat: {
+        date: "",
+        time: "",
+        venue: "",
+        mapUrl: "",
+        icsStart: "",
+        icsEnd: ""
+      },
+
+      walima: {
+        date: "",
+        time: "",
+        venue: "",
+        mapUrl: "",
+        icsStart: "",
+        icsEnd: ""
+      }
+    };
+
+    function syncGuestName(val) {
+      const clean = (val || "").trim();
+      const display = clean || "Guest";
+      document.getElementById("letter-guest-display").textContent = display;
+
+      const rsvpInput = document.getElementById("rsvp-guest-name");
+      if (document.activeElement !== rsvpInput) {
+        rsvpInput.value = clean;
+      }
+    }
+
+    function toggleOptionStyle(key) {
+      setTimeout(() => {
+        const cb = document.getElementById(`check-${key}`);
+        const box = document.getElementById(`option-${key}`);
+        if (cb && box) {
+          box.classList.toggle("selected", cb.checked);
+        }
+      }, 0);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // Spawn subtle ambient petals
+      const layer = document.getElementById("ambient-layer");
+      for (let i = 0; i < 12; i++) {
+        const petal = document.createElement("span");
+        petal.className = "petal";
+        const size = 8 + (i % 5) * 3;
+        petal.style.width = `${size}px`;
+        petal.style.height = `${Math.round(size * 0.72)}px`;
+        petal.style.left = `${(i * 8.5) % 96}%`;
+        petal.style.animationDuration = `${8 + (i % 6) * 2.2}s`;
+        petal.style.animationDelay = `${(i % 5) * 1.4}s`;
+        layer.appendChild(petal);
+      }
+
+      // Check ?guest= parameter if passed in URL
+      const params = new URLSearchParams(window.location.search);
+      const urlGuest = (params.get("guest") || "").trim();
+      const coverInput = document.getElementById("cover-guest-input");
+      const rsvpInput = document.getElementById("rsvp-guest-name");
+
+      if (urlGuest) {
+        coverInput.value = urlGuest;
+        rsvpInput.value = urlGuest;
+        syncGuestName(urlGuest);
+      }
+
+      coverInput.addEventListener("input", (e) => {
+        rsvpInput.value = e.target.value;
+        syncGuestName(e.target.value);
+      });
+
+      rsvpInput.addEventListener("input", (e) => {
+        coverInput.value = e.target.value;
+        syncGuestName(e.target.value);
+      });
+
+      // Populate Barat & Walima fields (blank by default)
+      document.getElementById("barat-date").textContent = WEDDING_CONFIG.barat.date;
+      document.getElementById("barat-time").textContent = WEDDING_CONFIG.barat.time;
+      document.getElementById("barat-venue").textContent = WEDDING_CONFIG.barat.venue;
+      document.getElementById("barat-map-link").href = WEDDING_CONFIG.barat.mapUrl || "#events-card";
+
+      document.getElementById("walima-date").textContent = WEDDING_CONFIG.walima.date;
+      document.getElementById("walima-time").textContent = WEDDING_CONFIG.walima.time;
+      document.getElementById("walima-venue").textContent = WEDDING_CONFIG.walima.venue;
+      document.getElementById("walima-map-link").href = WEDDING_CONFIG.walima.mapUrl || "#events-card";
+
+      // Countdown when target date is set
+      if (WEDDING_CONFIG.countdownTarget) {
+        const target = new Date(WEDDING_CONFIG.countdownTarget).getTime();
+        setInterval(() => {
+          const now = Date.now();
+          const diff = target - now;
+          if (diff > 0) {
+            document.getElementById("cd-days").textContent = String(Math.floor(diff / 86400000)).padStart(2, "0");
+            document.getElementById("cd-hours").textContent = String(Math.floor((diff / 3600000) % 24)).padStart(2, "0");
+            document.getElementById("cd-mins").textContent = String(Math.floor((diff / 60000) % 60)).padStart(2, "0");
+            document.getElementById("cd-secs").textContent = String(Math.floor((diff / 1000) % 60)).padStart(2, "0");
+          }
+        }, 1000);
+      }
+
+      // Reveal cards on scroll
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      }, { threshold: 0.12 });
+
+      document.querySelectorAll(".card").forEach((card) => io.observe(card));
+    });
+
+    function openCard() {
+      const typed = document.getElementById("cover-guest-input").value;
+      syncGuestName(typed);
+      document.getElementById("cover-gate").classList.add("opened");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function setActiveChip(btn) {
+      document.querySelectorAll(".nav-chip").forEach((el) => el.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+    }
+
+    function focusEvent(key, btn) {
+      setActiveChip(btn);
+      const baratBox = document.getElementById("event-barat");
+      const walimaBox = document.getElementById("event-walima");
+      baratBox.classList.toggle("active-event", key === "barat");
+      walimaBox.classList.toggle("active-event", key === "walima");
+
+      const targetBox = key === "barat" ? baratBox : walimaBox;
+      targetBox.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    function jumpTo(selector, btn) {
+      setActiveChip(btn);
+      const el = document.querySelector(selector);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+        el.classList.add("spotlight");
+        setTimeout(() => el.classList.remove("spotlight"), 1400);
+      }
+    }
+
+    function redirectToWhatsApp() {
+      const guestName = document.getElementById("rsvp-guest-name").value.trim() || "Guest";
+      const baratChecked = document.getElementById("check-barat").checked;
+      const walimaChecked = document.getElementById("check-walima").checked;
+
+      const selectedEvents = [];
+      if (baratChecked) selectedEvents.push("Barat");
+      if (walimaChecked) selectedEvents.push("Walima");
+
+      let attendanceLine = "";
+      if (selectedEvents.length === 2) {
+        attendanceLine = `${guestName} Barat aur Walima dono mein aayega/aayegi (In'sha'Allah).`;
+      } else if (selectedEvents.length === 1) {
+        attendanceLine = `${guestName} ${selectedEvents[0]} mein aayega/aayegi (In'sha'Allah).`;
+      } else {
+        attendanceLine = `${guestName} ne abhi koi event select nahi kiya.`;
+      }
+
+      const message =
+        `Assalam-o-Alaikum!\n` +
+        `Wedding Invitation — Qandeel Fatima weds Hussnain Younas\n\n` +
+        `Name: ${guestName}\n` +
+        `${attendanceLine}`;
+
+      const waUrl = `https://wa.me/${WEDDING_CONFIG.whatsappNumber}?text=${encodeURIComponent(message)}`;
+      window.open(waUrl, "_blank");
+    }
+
+    function saveCalendar(type) {
+      const ev = WEDDING_CONFIG[type];
+      if (!ev.icsStart || !ev.icsEnd) return;
+      const label = type === "barat" ? "Barat" : "Walima";
+      const ics = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "BEGIN:VEVENT",
+        `SUMMARY:${label} - Qandeel Fatima weds Hussnain Younas`,
+        `DTSTART:${ev.icsStart}`,
+        `DTEND:${ev.icsEnd}`,
+        `LOCATION:${ev.venue}`,
+        "END:VEVENT",
+        "END:VCALENDAR"
+      ].join("\n");
+      const blob = new Blob([ics], { type: "text/calendar" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `${type}.ics`;
+      a.click();
+    }
+  </script>
+</body>
+</html>
